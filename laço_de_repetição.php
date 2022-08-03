@@ -43,6 +43,12 @@
         echo "O nome é $nome e a idade é $valor <br>"; 
     }
 
+    $carros = ["fusca","gol","uno","celta","brasilia"];
+    sort($carros);                            //organizando a matriz em ordem alfabetica ou numerica - crescente ksort
+    foreach($carros as $carro){               //rsort coloca na ordem decrescente no caso de matriz é asort 
+        echo $carro."<br>";                   //rsort  ksort  asort  krsort
+    }
+
 
 
 ?>
