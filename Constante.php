@@ -6,7 +6,7 @@
     //constantes são imultaveis
     
     function teste(){
-        echo constat;
+        echo constant;
     }
     teste(); //ira mostrar "valor atribuido" obs: não precisa ser daclarado como variavel global
     
