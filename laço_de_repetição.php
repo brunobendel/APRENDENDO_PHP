@@ -31,4 +31,18 @@
         echo "A Cor é $valor <br>";
     }
 
+    //Array 
+
+    $idade = array("Bruno"=>"28","Dani"=>"30","Brendon"=>"24");
+
+    //a linha de comando abaixo é usada como se fossa um dicionario
+    //echo $idade["Bruno"];     >>>> vai aparecer 28
+    //são mutaveis
+
+    foreach ($idade as $nome => $valor){                  //foreach serve para matriz
+        echo "O nome é $nome e a idade é $valor <br>"; 
+    }
+
+
+
 ?>
