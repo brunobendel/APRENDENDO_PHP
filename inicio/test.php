@@ -1,4 +1,4 @@
-<?php
+<?php /*
 
 if(isset($_GET['nome'])){
     $nome = htmlspecialchars($_GET['nome']);
@@ -32,4 +32,6 @@ if(isset($_GET['cor'])){
     <a href="http://10.104.129.177/fam/bruno/test.php?nome=Brendon&cor=deeppink">Ir Para site do Brendon </a><br>
     
 </body>
-</html>
+</html>*/
+
+ echo phpinfo();
